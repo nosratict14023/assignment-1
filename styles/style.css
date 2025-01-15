@@ -5,9 +5,40 @@
 
   /*shared style*/
  .background{
-    background-color:rgb(245, 245, 245)
+    background-color:rgb(245, 245, 245);
+    margin: 80px 0;
+    padding: 0 160px;
 
   }
+  .setion-title{
+    align-self: stretch;
+    margin: 24px 0;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    color:rgb(14, 14, 14);
+  }
+  .section-description{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 12px 0;
+    color: rgba(14, 14, 14, 0.7);
+  }
+  .vision title{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+  }
+  .learn-btn{
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255,255,255);
+    text-align: left;
+
+  }
+
   /* nav */
 nav{
 display: flex;
@@ -78,8 +109,84 @@ margin: 80px 0;
     margin: 24px 0;
     border-radius: 8px;
     background-color: rgb(0, 106, 80);
+    border: none;
 }
 .banner-profile-pic{
     width: 474px;
     height: 329px;
 }
+
+/*section*/
+/*vision of future*/
+section{
+    width: 1280px;
+    height: 765px;
+    margin: 80px 0;
+
+}
+/* .visionof-future{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80;
+} */
+.vision-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+   
+}
+.vision{
+    border-radius: 16px;
+    box-sizing: border-box;
+    padding: 32px;
+}
+.vclr1{
+
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.vclr2{
+   background-color:  rgb(198, 228, 214);
+}
+.vclr3{
+    background-color: rgb(247, 235, 207);
+}
+.btn1{
+    background-color: rgb(84, 144, 245);
+    border: none;
+
+}
+.btn2{
+    background-color: rgb(9, 161, 92);
+    border: none;
+}
+.btn3{
+    background-color: rgb(255, 194, 57);
+    border: none;
+}
+.greeting{
+   
+    height: 256px;
+    padding: 48px 24px 48px 24px;
+    margin: 32px 0;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255,255,255));
+}
+
+.advsr{
+  
+    margin: 0px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+}
+.chadv{
+    
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
