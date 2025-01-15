@@ -1,0 +1,85 @@
+.fira-sans-normal {
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+  }
+
+  /*shared style*/
+ .background{
+    background-color:rgb(245, 245, 245)
+
+  }
+  /* nav */
+nav{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 24px 160px 24px 160px;
+width: 1600px;
+height: 100px;
+}
+
+.nav title{
+    font-weight: 700px;
+    font-size: 32px;
+    color:rgb(14, 14, 14);
+}
+.btn{
+    color:  rgb(0, 106, 80);
+    border-radius: 8px;
+    padding: 15 px 30px                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ;
+    width: 116px;
+    height: 52px;
+    text-align: center;
+    border-color:rgb(0, 106, 80);
+
+}
+
+
+
+  /* Banner*/
+.banner{
+
+position: static;
+width: 1280px;
+height: 560px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 64;
+padding: 80px 100px 80px 100px;
+background-color: rgb(198, 228, 214);
+border-radius: 24px;
+margin: 80px 0;
+}
+
+.banner-content{
+    width: 622px;
+    margin 16px 0;
+    text-align: left;
+}
+.banner-greetings{
+    line-height: 29px;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 67px;
+    color: rgb(14, 14, 14);
+}
+.banner-btn{
+    width: 270px;
+    height: 56px;
+    padding: 17px 34px;
+    margin: 24px 0;
+    border-radius: 8px;
+    background-color: rgb(0, 106, 80);
+}
+.banner-profile-pic{
+    width: 474px;
+    height: 329px;
+}
